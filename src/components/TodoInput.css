@@ -1,0 +1,25 @@
+.TodoInput {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  .TodoInput input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5em;
+    font-size: initial;
+    outline: none;
+  }
+  .TodoInput button {
+    padding: 0 1.3rem;
+    background: cadetblue;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .TodoInput input,
+  .TodoInput button {
+    height: 3rem;
+  }

@@ -1,0 +1,14 @@
+.TodoList {
+    padding: 2rem 3rem 3rem;
+    background: darkseagreen;
+    color: #fff;
+    width: 100%;
+  }
+  .TodoList ul {
+    margin-top: 2.6rem;
+    list-style: none;
+  }
+  .todo {
+    background-color: darkslategrey;
+    margin-top: 5px;
+  }
