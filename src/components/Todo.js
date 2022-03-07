@@ -1,10 +1,9 @@
-import React, {useState} from "react";
 import './Todo.css';
 
-const Todo = ({toggleTodo, task}) => {
+const Todo = ({task}) => {
     return (
         <div className="Todo">
-                <li classNames="Todo-task" onClick={toggleTodo}>
+                <li classNames="Todo-task">
                     {task}
                 </li>
         </div>
